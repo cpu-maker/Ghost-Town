@@ -1,0 +1,24 @@
+body {
+  background: radial-gradient(circle at top, #111 0%, #000 70%);
+  color: #ccc;
+  font-family: monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 10px 0 0;
+  color: #e0e0ff;
+}
+
+p {
+  margin: 5px 0 10px;
+  font-size: 14px;
+}
+
+canvas {
+  border: 3px solid #444;
+  background: #000;
+  box-shadow: 0 0 40px rgba(180, 180, 255, 0.2);
+}
