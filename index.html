@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ghost Town 3D</title>
+  <title>Ghost Town: Midnight</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="ui">WASD to move • Mouse to look</div>
+  <div id="ui">
+    ❤️ <span id="health">100</span>
+    🧠 <span id="sanity">100</span><br>
+    WASD Move • Mouse Look • F Flashlight • M Map
+  </div>
+
+  <canvas id="map"></canvas>
 
   <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
   <script src="main.js"></script>
